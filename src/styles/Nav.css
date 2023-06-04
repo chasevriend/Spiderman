@@ -1,6 +1,4 @@
-
 /* mobile */
-
 .mobile-nav {
     align-items: center;
     background-color: #fff;
@@ -88,7 +86,6 @@
 }
 
 /* Desktop */
-
 .nav {
     align-items: center;
     background-color: transparent;
@@ -132,15 +129,15 @@
     padding: 10px;
 }
 
-.nav__links a:hover {
-    color: #ff4d30;
+.nav__btns a:hover {
+    color: rgb(185 28 28);
 }
 
 .nav__btns {
     align-items: center;
     display: flex;
     font-family: Rubik,sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     gap: 20px;
 }

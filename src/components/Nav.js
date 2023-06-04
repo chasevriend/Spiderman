@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import "../styles/Nav.css";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { IconButton } from '@mui/material';
-import Logo from "../images/logo.png";
 
 const Nav = () => {
     const [nav, setNav] = useState(false);
@@ -35,6 +34,7 @@ const Nav = () => {
                 </div>
                 {/* Desktop Nav */}
                 <div className="nav">
+                    <button className='nav__lightBtn bg-red-600 p-3'>Dark/Light</button>
                     <div className="nav__left">
                         <Link to="/" onClick={() => window.scrollTo(0, 0)}>
                             {/* <p className="nav__logo"><img src={Logo} alt='' className='nav__logo' /></p> */}
