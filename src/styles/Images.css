@@ -1,0 +1,14 @@
+.images {
+    margin-top: 10vh;
+}
+
+.images__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.images__cell {
+    max-width: 30rem;
+}

@@ -1,4 +1,33 @@
 .hero__container {
     margin-top: 20vh;
     display: flex;
+    justify-content: space-between;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.hero__content {
+    max-width: 50%;
+}
+
+.hero__content p {
+    padding: 20px 0;
+}
+
+.hero__btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.hero__imgs {
+    max-width: 50%;
+}
+
+.hero__img {
+    width: 100%;
+    height: auto;
 }
