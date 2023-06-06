@@ -5,6 +5,7 @@ const Images = () => {
     <>
         <section id='images'>
             <div className='images'>
+            <h2>Images</h2>
                 <div className='images__container'>
                     <div className='images__cell'>
                         <img src='https://insomniac.games/wp-content/uploads/2021/10/MSM2_Reveal_Venom_4K_Legal-scaled.jpg' alt='spiderman game screenshot' className='images__img' />
