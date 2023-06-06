@@ -1,10 +1,11 @@
 import React from 'react'
+import "../styles/Footer.css";
 
 const Footer = () => {
   return (
     <>
         <div className='footer'>
-            <div className='footer__container'>
+            <div className='footer__container bg-slate-900'>
                 <div className='footer__cell'>
                     <img 
                     src='https://insomniac.games/wp-content/themes/insomniacgames/images/insomniac-games-logo-dark.svg' 

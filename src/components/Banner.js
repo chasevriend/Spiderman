@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import "../styles/Banner.css";
 
 const Banner = () => {
   return (
     <>
         <div className='banner'>
-            <div className='banner__container'>
+            <div className='banner__container bg-slate-900'>
                 <img 
                 src='https://insomniac.games/wp-content/uploads/2021/10/Fall2023.png' 
                 alt='release date' 

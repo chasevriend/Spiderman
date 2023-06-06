@@ -8,11 +8,12 @@ import Nav from '../components/Nav';
 const Home = () => {
   return (
     <>
-        {/* Nav, Hero, Images, Call to Action, Banner, Footer */}
+        {/* Nav, Hero, Images, Videos, Banner, Call to Action, Footer */}
         <Nav />
         <Hero />
         <Images />
-        <Banner />
+
+        <Banner /> 
         <Footer />
     </>
   )

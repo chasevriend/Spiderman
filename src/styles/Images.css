@@ -1,5 +1,5 @@
 .images {
-    margin-top: 10vh;
+    margin-top: 15vh;
 }
 
 .images__container {
@@ -7,8 +7,16 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    margin-top: 5vh;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .images__cell {
-    max-width: 30rem;
+    max-width: 25rem;
+}
+
+.images__img {
+    border-radius: 5px;
 }
